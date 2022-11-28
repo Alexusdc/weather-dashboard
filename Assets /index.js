@@ -8,14 +8,6 @@ var userIcon = document.querySelector("#icon");
 var userTemp = document.querySelector("#temp");
 var userWind = document.querySelector("#wind");
 var userHumidity = document.querySelector("#humidity");
-var userUv = document.querySelector("#uv");
-var cityName;
-var h5El = document.getElementsByTagName("h5");
-var iconEl = document.querySelectorAll(".cardIcon");
-var humidityEl = document.querySelectorAll(".cardHumidity");
-var tempEl = document.querySelectorAll(".cardTemp");
-var windEl = document.querySelectorAll(".cardWind");
-var pastCity = []
 
 userCity.textContent = userCity.innerHTML + " " + today;
 
@@ -78,7 +70,6 @@ var cityLatLon = function() {
               userTemp.textContent = "Temp: " + data.current.temp + "ºF";
               userWind.textContent = "Wind: " + data.current.wind_speed + " MPH";
               userHumidity.textContent = "Humidity: " + data.current.humidity + "%";
-              userUv.textContent = "UV Index: " + data.current.uvi;
               for (let i = 0; i < h5El.length; i++) {
                   var cardDates = data.daily[i+1].dt;
                   var differentDates = moment(cardDates, "X").format("L");

@@ -5,7 +5,7 @@ header{
     padding: 10px;
 }
 
-.card-body{
+.c-body{
     background-color: #19425d;
     color: white;
 }
@@ -14,6 +14,6 @@ header{
     width: 60px;
 }
 
-.cardIcon{
+.c-Icon{
     width: 50px;
 }
