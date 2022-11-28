@@ -1,0 +1,19 @@
+header{
+    background-image: linear-gradient(to right, blue , purple);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body{
+    background-color: #19425d;
+    color: white;
+}
+
+#icon{
+    width: 60px;
+}
+
+.cardIcon{
+    width: 50px;
+}
