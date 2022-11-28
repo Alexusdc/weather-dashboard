@@ -5,7 +5,7 @@ This weather dashboard is an easy way to look up a 5 day forecast by the city! I
 ## Usage 
 In order to use Weather Portfolio, please refer to the following images 
 
-<img width="1420" alt="Screen Shot 2022-07-21 at 9 41 07 PM" src="![Screenshot 2022-11-27 at 8 24 06 PM](https://user-images.githubusercontent.com/106570615/204193752-d1d1b687-ec29-4fda-96e2-d43c87255123.png)">
+<img width="1420" alt="Screen Shot 2022-07-21 at 9 41 07 PM" src="https://user-images.githubusercontent.com/106570615/204194350-72d930bb-ee2d-44e8-9d57-376e0f84b8c2.png">
 
 Step 1: https://alexusdc.github.io/weather-dashboard/
 
